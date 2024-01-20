@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background-color: hsl(0, 0%, 8%);
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: "Inter", sem serifa;
+}
+
+.header {
+  border-radius: 10px;
+  background-color: hsl(0, 0%, 12%);
+  text-align: center;
+
+  width: 350px;
+}
+
+.img {
+  padding-top: 10px;
+  border-radius: 50%;
+  width: 100px;
+}
+
+.paragrafo {
+  font-size: 19px;
+  color: hsl(75, 94%, 57%);
+  padding: 10px;
+}
+
+.paragrafo-1 {
+  padding-top: 10px;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 30px;
+}
+
+.links a {
+  text-decoration: none;
+  padding: 10px;
+}
+
+.link1,
+.link2,
+.link3,
+.link4,
+.link5 {
+  background-color: hsl(0, 0%, 20%);
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  margin: 9px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.link1:hover,
+.link2:hover,
+.link3:hover,
+.link4:hover,
+.link5:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: grey;
+  transition: 0.1s;
+}
+
+.rodape {
+  font-size: 11px;
+  text-align: center;
+  padding-top: 5px;
+}
+
+.rodape a {
+  color: hsl(228, 45%, 44%);
+}
